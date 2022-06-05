@@ -11,7 +11,7 @@ variable "cdn_application_id" {
 variable "regions" {
   type = map(string)
   default = {
-    "primary" = "<REGION>"
+    "primary" = "eastus"
     "cdn"     = "<CDN_REGION>"
   }
 }
